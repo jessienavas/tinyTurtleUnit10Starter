@@ -1,18 +1,28 @@
 TinyTurtle.apply(window, [undefined, 400, 400]);
+function triangle(x){
+right(30);
+forward(x);
+right(120);
+forward(x);
+right(120);
+forward(x);
+}
+triangle(100);
 
-function square(){
-forward(50);
+
+function rectangle(x,y){
+forward(x);
 right(90);
-forward(50);
+forward(y);
 right(90);
-forward(50);
+forward(x);
 right(90);
-forward(50);
+forward(y);
 right(90);
-forward(50);
+forward(y);
+    
 }
 
-// Type your function call below
+rectangle(80,50)
 
 
-stamp();
